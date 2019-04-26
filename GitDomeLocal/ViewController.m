@@ -16,9 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the v[]iew.
 
     [self setUI];
+    // 设置底部的导航
+ 
+    
+   
 }
 
 #pragma mark 初始化UI 控件
