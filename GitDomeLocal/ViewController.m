@@ -17,7 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+    [self setUI];
 }
 
-
+#pragma mark 初始化UI 控件
+- (void) setUI{
+    
+    
+    UIView  *view  = [[UIView  alloc] initWithFrame:CGRectMake(50, 100, 200, 200)];
+    view.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:view];
+}
 @end
