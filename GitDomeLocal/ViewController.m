@@ -32,5 +32,9 @@
     UIView  *view  = [[UIView  alloc] initWithFrame:CGRectMake(50, 100, 200, 200)];
     view.backgroundColor = [UIColor grayColor];
     [self.view addSubview:view];
+    
+    
+    // 添加一行注释
+    
 }
 @end
