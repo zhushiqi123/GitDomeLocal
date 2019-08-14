@@ -42,6 +42,12 @@
 		18B618002272D0ED00FF4B7A = {
 			isa = PBXGroup;
 			children = (
+				18F3783C2303DD6A00DFF95B /* 设计模式 */,
+				18F3783B2303DD5F00DFF95B /* 网络 */,
+				18F3783A2303DD5700DFF95B /* 工具 */,
+				18F378392303DD4B00DFF95B /* 代码风格 */,
+				18F378382303DD3700DFF95B /* RxSwift学习 */,
+				18F378372303DCF100DFF95B /* ios知识点 */,
 				18B6180B2272D0ED00FF4B7A /* GitDomeLocal */,
 				18B6180A2272D0ED00FF4B7A /* Products */,
 			);
@@ -69,6 +75,48 @@
 				18B6181B2272D0EE00FF4B7A /* main.m */,
 			);
 			path = GitDomeLocal;
+			sourceTree = "<group>";
+		};
+		18F378372303DCF100DFF95B /* ios知识点 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ios知识点";
+			sourceTree = "<group>";
+		};
+		18F378382303DD3700DFF95B /* RxSwift学习 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "RxSwift学习";
+			sourceTree = "<group>";
+		};
+		18F378392303DD4B00DFF95B /* 代码风格 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "代码风格";
+			sourceTree = "<group>";
+		};
+		18F3783A2303DD5700DFF95B /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
+		18F3783B2303DD5F00DFF95B /* 网络 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "网络";
+			sourceTree = "<group>";
+		};
+		18F3783C2303DD6A00DFF95B /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "设计模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
