@@ -13,6 +13,7 @@
 		18B618162272D0EE00FF4B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B618152272D0EE00FF4B7A /* Assets.xcassets */; };
 		18B618192272D0EE00FF4B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B618172272D0EE00FF4B7A /* LaunchScreen.storyboard */; };
 		18B6181C2272D0EE00FF4B7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6181B2272D0EE00FF4B7A /* main.m */; };
+		18F3783E2303DEA400DFF95B /* 一个nsobject对象占用多少内存 in Resources */ = {isa = PBXBuildFile; fileRef = 18F3783D2303DEA400DFF95B /* 一个nsobject对象占用多少内存 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		18B618182272D0EE00FF4B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B6181A2272D0EE00FF4B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B6181B2272D0EE00FF4B7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F3783D2303DEA400DFF95B /* 一个nsobject对象占用多少内存 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "一个nsobject对象占用多少内存"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,12 +44,6 @@
 		18B618002272D0ED00FF4B7A = {
 			isa = PBXGroup;
 			children = (
-				18F3783C2303DD6A00DFF95B /* 设计模式 */,
-				18F3783B2303DD5F00DFF95B /* 网络 */,
-				18F3783A2303DD5700DFF95B /* 工具 */,
-				18F378392303DD4B00DFF95B /* 代码风格 */,
-				18F378382303DD3700DFF95B /* RxSwift学习 */,
-				18F378372303DCF100DFF95B /* ios知识点 */,
 				18B6180B2272D0ED00FF4B7A /* GitDomeLocal */,
 				18B6180A2272D0ED00FF4B7A /* Products */,
 			);
@@ -64,6 +60,12 @@
 		18B6180B2272D0ED00FF4B7A /* GitDomeLocal */ = {
 			isa = PBXGroup;
 			children = (
+				18F378372303DCF100DFF95B /* ios知识点 */,
+				18F378382303DD3700DFF95B /* RxSwift学习 */,
+				18F378392303DD4B00DFF95B /* 代码风格 */,
+				18F3783A2303DD5700DFF95B /* 工具 */,
+				18F3783B2303DD5F00DFF95B /* 网络 */,
+				18F3783C2303DD6A00DFF95B /* 设计模式 */,
 				18B6180C2272D0ED00FF4B7A /* AppDelegate.h */,
 				18B6180D2272D0ED00FF4B7A /* AppDelegate.m */,
 				18B6180F2272D0ED00FF4B7A /* ViewController.h */,
@@ -115,6 +117,7 @@
 		18F3783C2303DD6A00DFF95B /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				18F3783D2303DEA400DFF95B /* 一个nsobject对象占用多少内存 */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				18B618192272D0EE00FF4B7A /* LaunchScreen.storyboard in Resources */,
 				18B618162272D0EE00FF4B7A /* Assets.xcassets in Resources */,
+				18F3783E2303DEA400DFF95B /* 一个nsobject对象占用多少内存 in Resources */,
 				18B618142272D0ED00FF4B7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
