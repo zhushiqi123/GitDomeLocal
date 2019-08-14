@@ -14,6 +14,7 @@
 		18B618192272D0EE00FF4B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B618172272D0EE00FF4B7A /* LaunchScreen.storyboard */; };
 		18B6181C2272D0EE00FF4B7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6181B2272D0EE00FF4B7A /* main.m */; };
 		18F3783E2303DEA400DFF95B /* 一个nsobject对象占用多少内存 in Resources */ = {isa = PBXBuildFile; fileRef = 18F3783D2303DEA400DFF95B /* 一个nsobject对象占用多少内存 */; };
+		18F378412303DF4F00DFF95B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F378402303DF4F00DFF95B /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		18B6181A2272D0EE00FF4B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B6181B2272D0EE00FF4B7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F3783D2303DEA400DFF95B /* 一个nsobject对象占用多少内存 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "一个nsobject对象占用多少内存"; sourceTree = "<group>"; };
+		18F3783F2303DF4F00DFF95B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F378402303DF4F00DFF95B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				18F3783D2303DEA400DFF95B /* 一个nsobject对象占用多少内存 */,
+				18F3783F2303DF4F00DFF95B /* ViewController.h */,
+				18F378402303DF4F00DFF95B /* ViewController.m */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 			files = (
 				18B618112272D0ED00FF4B7A /* ViewController.m in Sources */,
 				18B6181C2272D0EE00FF4B7A /* main.m in Sources */,
+				18F378412303DF4F00DFF95B /* ViewController.m in Sources */,
 				18B6180E2272D0ED00FF4B7A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
